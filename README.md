@@ -19,5 +19,5 @@ A Telegram Bot written in Python using `python-telegram-bot` and `httpx` for asy
 
 ### 1. Clone the Repository
 ```bash
-git clone [https://github.com/YOUR_USERNAME/jav-finder-bot.git](https://github.com/YOUR_USERNAME/jav-finder-bot.git)
+git clone https://github.com/arkar76011-cmd/jav-finder-bot.git
 cd jav-finder-bot
