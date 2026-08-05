@@ -9,7 +9,7 @@ An asynchronous Telegram bot built with Python that fetches movies and series us
 * 📄 **Smart Pagination:** Renders search results in clean, managed batches of **5 items per page**
 * ⏱️ **Cooldown & Anti-Spam System:**
   * Implements a **30-second delay** after every 2 consecutive pagination extensions (`Y` requests)
-  * Enforces a **20-second cooldown** between new user search requests[cite: 1].
+  * Enforces a **20-second cooldown** between new user search requests
 * 🎬 **Inline Web Playback:** Features a direct `Watch Now ▷` inline keyboard button linking directly to clean embed URLs
 
 ## 🛠️ Tech Stack
