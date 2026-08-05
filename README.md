@@ -2,15 +2,15 @@
   
 # 🤖  jav-finder-bot
 
-An asynchronous Telegram bot built with Python that fetches movies and series using actor names or IDs via custom APIs and presents watchable embed links[cite: 1].
+An asynchronous Telegram bot built with Python that fetches movies and series using actor names or IDs via custom APIs and presents watchable embed links
 
 ## 🌟 Key Features
-* 🔎 **API Integration:** Asynchronously queries custom external API endpoints for actor/series details[cite: 1].
-* 📄 **Smart Pagination:** Renders search results in clean, managed batches of **5 items per page**[cite: 1].
+* 🔎 **API Integration:** Asynchronously queries custom external API endpoints for actor/series details
+* 📄 **Smart Pagination:** Renders search results in clean, managed batches of **5 items per page**
 * ⏱️ **Cooldown & Anti-Spam System:**
-  * Implements a **30-second delay** after every 2 consecutive pagination extensions (`Y` requests)[cite: 1].
+  * Implements a **30-second delay** after every 2 consecutive pagination extensions (`Y` requests)
   * Enforces a **20-second cooldown** between new user search requests[cite: 1].
-* 🎬 **Inline Web Playback:** Features a direct `Watch Now ▷` inline keyboard button linking directly to clean embed URLs[cite: 1].
+* 🎬 **Inline Web Playback:** Features a direct `Watch Now ▷` inline keyboard button linking directly to clean embed URLs
 
 ## 🛠️ Tech Stack
 | Component | Technology | Description |
@@ -21,7 +21,7 @@ An asynchronous Telegram bot built with Python that fetches movies and series us
 | **Config** | [python-dotenv](https://github.com/theskumar/python-dotenv) | Environment variables management |
 
 ## ⚙️ Configuration Setup
-Create a `.env` file in the root directory of your project with the following keys[cite: 1]:
+Create a `.env` file in the root directory of your project with the following keys
 BOT_TOKEN=123456789:ABCdefGHIjklMNOpqrsTUVwxyZ
 API_URL=https://your-api-domain.com/search?q=
 
@@ -37,7 +37,7 @@ API_URL=https://your-api-domain.com/search?q=
    python javfinder.py
 
 ## 💬 How to Use
-1. Send `/start` to the bot on Telegram[cite: 1].
-2. Type an actor's name or code/ID[cite: 1].
-3. Bot replies with the first 5 results and an Inline Button[cite: 1].
-4. Reply with `Y` to load 5 more, or `N` to cancel the session[cite: 1].
+1. Send `/start` to the bot on Telegram
+2. Type an actor's name or code/ID
+3. Bot replies with the first 5 results and an Inline Button
+4. Reply with `Y` to load 5 more, or `N` to cancel the session
