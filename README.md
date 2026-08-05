@@ -52,7 +52,7 @@ BOT_TOKEN=123456789:ABCdefGHIjklMNOpqrsTUVwxyZ
 API_URL=[https://your-api-domain.com/search?q=](https://your-api-domain.com/search?q=)
 
 
-🚀 Quick Start Guide
+## 🚀 Quick Start Guide
 
 1️⃣ Clone the Repository
 Bash
