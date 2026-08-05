@@ -1,23 +1,8 @@
-# 🎬 JAV Finder Telegram Bot
-
-A Telegram Bot written in Python using `python-telegram-bot` and `httpx` for asynchronous search operations. It allows users to search for video information and embed links with pagination and automated rate-limiting cooldown controls.
-
-## ✨ Features
-- **Async Search:** Utilizes `httpx` for fast and non-blocking asynchronous HTTP requests.
-- **Paginated Results:** Returns results in batches of 5 with confirmation prompts (`Y/N`) to fetch more.
-- **User Cooldown Protection:** Built-in cooldown timer (20s) to prevent spam and rate-limiting issues.
-- **Clean Output Formatting:** Formats video titles and embedded links with clean Markdown formatting.
-- **Environment Variable Configuration:** Keeps sensitive bot tokens and API URLs safe using `.env` files.
-
-## 🛠️ Tech Stack
-- **Language:** Python 3.10+
-- **Framework:** `python-telegram-bot`
-- **HTTP Client:** `httpx`
-- **Utilities:** `nest-asyncio`, `python-dotenv`
-
-## 🚀 Getting Started
-
-### 1. Clone the Repository
-```bash
-git clone https://github.com/arkar76011-cmd/jav-finder-bot.git
-cd jav-finder-bot
+Telegram Movie/Series Search BotA Telegram bot written in Python that allows users to search for movies or series using actor names or IDs via an external API and watch them directly through inline buttons.  🌟 FeaturesAPI Integration: Fetches actor/series details directly from a custom API endpoint.  Pagination System: Displays search results in manageable batches of 5 items at a time.  Rate Limiting & Cooldowns:Implements a 30-second pause after 2 consecutive pagination requests (Y) to prevent spamming.  Enforces a 20-second cooldown period between new user searches.  Inline Playback Buttons: Provides a "Watch Now ▷" inline keyboard button for each result linking directly to the playable embed link.  🛠 Tech StackLanguage: Python 3.8+Library: python-telegram-bot (v20+)  HTTP Client: httpx (Async)  Environment Management: python-dotenv  📋 PrerequisitesBefore running the project, ensure you have:Python 3.8 or higher installed.A Telegram Bot Token (obtainable via @BotFather).🚀 Getting Started1. Clone the RepositoryBashgit clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+2. Install DependenciesInstall the required Python packages using pip:Bashpip install python-telegram-bot httpx python-dotenv
+(Alternatively, if you have a requirements.txt file):Bashpip install -r requirements.txt
+3. Configure Environment VariablesCreate a .env file in the root directory of your project:  Code snippetBOT_TOKEN=your_telegram_bot_token_here
+API_URL=https://your-api-domain.com/search?q=
+🏃‍♂️ UsageRun the bot using the following command:  Bashpython javfinder.py
+💬 How to Interact with the BotSend /start to the bot in Telegram.  Enter an actor name or ID.  The bot will return the first 5 results. Reply with Y to fetch 5 more results, or N to cancel the search.  
