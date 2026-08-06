@@ -1,6 +1,6 @@
 <div align="center">
   
-# 🤖  jav-finder-bot
+# 🤖  jav-finder-bot [v2]
 
 An asynchronous Telegram bot built with Python that fetches movies and series using actor names or IDs via custom APIs and presents watchable embed links
 
